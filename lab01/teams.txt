@@ -1,0 +1,22 @@
+Elizabeth Koning - erk24
+
+1. Demographics
+  a. Senior
+  b. BCS
+  c. A
+
+2. Technical
+  a. I used Java for AP CS and then in CS 214.
+  b. I have used Slack and GitHub for summer research and other projects. I have used Trello for CalvinHacks, but not nearly as much as the other two tools.
+  c. I have a Pixel 2 running v 10.
+  d. One project idea I have to create an app for Grassroots Green, a group of people that a philosophy professor here is starting. They want to encourage groups at Calvin to serve more vegetarian food, and they want an app to collect information from people on campus as they log when they vegarian/non-vegarian meals. It would be a lot of communication with that group. I also need to talk with them again about their timeline before I commit to working on this project.
+Wacky application:
+My idea that's less tractable is an app with people with Seasonal Affective Disorder to tell them when they should turn their blue lights on. People with SAD need to use different amounts of artificial light based on how much sunlight they get throughout the day (based on solar cycle, weather, and time spent outdoors) and need to time the light based on when they sleep. My concerns with this is that it's kind of giving people medical advice
+ and the challenges that would come in figuring out how to calculate the light and sleep times.
+
+3. Personality
+  a. O = 85%, C = 65%, E = 79%, A = 60%, N = 54%
+  b. I would like to work with Sam Tuit.
+
+4. No
+

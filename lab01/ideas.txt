@@ -1,0 +1,8 @@
+Elizabeth Koning - erk24
+
+Interesting and tractable idea:
+A professor in the philosophy department approached me last year about creating an app for a group that he is part of. The group is about sustainability, and they want an app for Calvin students to log when they eat a vegetarian or vegan meal. They hope to use the data from this to encourage groups on Calvin's campus to serve vegetarian and vegan food more frequently. Before I could commit to this project, I need to get back in touch with them about the timeline their group is thinking. I also need to make sure that what they really need is an app. They say that they want an app, but we should talk to them before we get too far to make sure that it would really address their use case.
+
+Wacky application:
+My idea that's less tractable is an app with people with Seasonal Affective Disorder to tell them when they should turn their blue lights on. People with SAD need to use different amounts of artificial light based on how much sunlight they get throughout the day (based on solar cycle, weather, and time spent outdoors) and need to time the light based on when they sleep. My concerns with this is that it's kind of giving people medical advice and the challenges that would come in figuring out how to calculate the light and sleep times.
+
