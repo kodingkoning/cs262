@@ -1,4 +1,4 @@
-﻿--
+--
 -- This SQL script builds a monopoly database, deleting any pre-existing version.
 --
 -- @author kvlinden
@@ -7,7 +7,6 @@
 --
 
 -- Drop previous versions of the tables if they they exist, in reverse order of foreign keys.
-DROP TABLE IF EXISTS PlayerGame; -- for some reason the first line doesn't work and I can't figure out why
 DROP TABLE IF EXISTS GameProperty;
 DROP TABLE IF EXISTS PlayerGame;
 DROP TABLE IF EXISTS Property;
@@ -16,13 +15,13 @@ DROP TABLE IF EXISTS Game;
 
 -- Create the schema.
 CREATE TABLE Game (
-	ID integer PRIMARY KEY, 
+	ID integer PRIMARY KEY,
 	time timestamp,
 	completed integer
 	);
 
 CREATE TABLE Player (
-	ID integer PRIMARY KEY, 
+	ID integer PRIMARY KEY,
 	emailAddress varchar(50) NOT NULL,
 	name varchar(50)
 	);
@@ -100,4 +99,3 @@ INSERT INTO PlayerGame VALUES (4, 1, NULL, 600, 10);
 INSERT INTO GameProperty VALUES (4, 1, 3, 0, 0);
 INSERT INTO GameProperty VALUES (4, 10, 1, 0, 0);
 INSERT INTO GameProperty VALUES (4, 3, 2, 0, 0);
-
