@@ -17,7 +17,7 @@ DROP TABLE IF EXISTS Game;
 CREATE TABLE Game (
 	ID integer PRIMARY KEY,
 	time timestamp,
-	completed integer
+	completed boolean
 	);
 
 CREATE TABLE Player (
@@ -54,7 +54,7 @@ CREATE TABLE GameProperty (
 	propertyID integer REFERENCES Property(ID),
 	playerID integer REFERENCES Player(ID),
 	houses integer,
-	mortgaged integer
+	mortgaged boolean
 	);
 
 -- Allow users to select data from the tables.
@@ -65,10 +65,10 @@ GRANT SELECT ON Property TO PUBLIC;
 GRANT SELECT ON GameProperty TO PUBLIC;
 
 -- Add sample records.
-INSERT INTO Game VALUES (1, '2006-06-27 08:00:00', 1);
-INSERT INTO Game VALUES (2, '2006-06-28 13:20:00', 1);
-INSERT INTO Game VALUES (3, '2006-06-29 18:41:00', 1);
-INSERT INTO Game VALUES (4, '2019-10-17 18:26:00', 0);
+INSERT INTO Game VALUES (1, '2006-06-27 08:00:00', TRUE);
+INSERT INTO Game VALUES (2, '2006-06-28 13:20:00', TRUE);
+INSERT INTO Game VALUES (3, '2006-06-29 18:41:00', TRUE);
+INSERT INTO Game VALUES (4, '2019-10-17 18:26:00', FALSE);
 
 INSERT INTO Player(ID, emailAddress) VALUES (1, 'me@calvin.edu');
 INSERT INTO Player VALUES (2, 'king@gmail.edu', 'The King');
@@ -96,6 +96,6 @@ INSERT INTO PlayerGame VALUES (4, 3, NULL, 400, 1);
 INSERT INTO PlayerGame VALUES (4, 2, NULL, 500, 3);
 INSERT INTO PlayerGame VALUES (4, 1, NULL, 600, 10);
 
-INSERT INTO GameProperty VALUES (4, 1, 3, 0, 0);
-INSERT INTO GameProperty VALUES (4, 10, 1, 0, 0);
-INSERT INTO GameProperty VALUES (4, 3, 2, 0, 0);
+INSERT INTO GameProperty VALUES (4, 1, 3, 0, FALSE);
+INSERT INTO GameProperty VALUES (4, 10, 1, 0, FALSE);
+INSERT INTO GameProperty VALUES (4, 3, 2, 0, FALSE);
