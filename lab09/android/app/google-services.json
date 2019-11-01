@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "134888816287",
+    "firebase_url": "https://cs262-lab09-6babc.firebaseio.com",
+    "project_id": "cs262-lab09-6babc",
+    "storage_bucket": "cs262-lab09-6babc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:134888816287:android:e1422437b0b51cee60ecaa",
+        "android_client_info": {
+          "package_name": "erk24.cs262.calvin.edu.lab09"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "134888816287-iehkt3n7ndpn8ic47rnepm69svnptjsi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBi2pb4ICe6KZC1SZKZgfrbtcGawiKZRAM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "134888816287-iehkt3n7ndpn8ic47rnepm69svnptjsi.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
