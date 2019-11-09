@@ -2,15 +2,26 @@
 
 A new Flutter application.
 
-## Getting Started
 
-This project is a starting point for a Flutter application.
+## 1
 
-A few resources to get you started if this is your first Flutter project:
+See screenshots for working Baby Names app with language and region information.
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+## 2
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### a: Is the service RESTful?
+
+Since we did a different HW 2 than the Android groups, we did not use a Web API last time.
+
+Our Firestore database has a RESTful API. It has each of the idempotent calls (GET, PUT, DELETE) and has the POST command as a nullipotent command. It also has a directory structure, as with saw with JSON in class. Importantly, it is stateless. It sends information to the server about which user is requesting the command and all other instructions that the server needs to know for a particular command. 
+
+### b: What endpoints implement actions that are idempotent? nullipotent?
+
+The idempotent actions:
+- GET: is done using Document.get().
+- PUT: is done using Document.updateData().
+- DELETE: is done using Document.delete().
+
+The nullipotent actions:
+- POST is done using Collection.add(). There are alternative ways of creating a new Document, but most of them will update the data instead of creating a new Document if a Document with its ID already exists. add() generates an ID automatically for the new Document within the Collection.
+
